@@ -16,7 +16,7 @@ let package = Package(
         .plugin(name: "XCStringsToolPlugin", targets: ["XCStringsToolPlugin"])
     ],
     dependencies: [
-        .package(url: "https://github.com/liamnichols/swift-localized-strings", from: "1.0.0"),
+        .package(url: "https://github.com/lttmdn/swift-localized-strings.git", from: "1.0.0"),
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.2.3"),
         .package(url: "https://github.com/swiftlang/swift-syntax", "509.0.0" ..< "603.0.0-prerelease"),
         .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", from: "1.17.0"),
