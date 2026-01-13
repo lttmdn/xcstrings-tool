@@ -9,7 +9,7 @@ let package = Package(
     defaultLocalization: "en",
     platforms: [
         .macOS(.v13),
-        .iOS(.v13)
+        .iOS(.v16)
     ],
     products: [
         .executable(name: "xcstrings-tool", targets: ["xcstrings-tool"]),
