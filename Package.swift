@@ -8,7 +8,8 @@ let package = Package(
     name: "XCStringsTool",
     defaultLocalization: "en",
     platforms: [
-        .macOS(.v13)
+        .macOS(.v13),
+        .iOS(.v13)
     ],
     products: [
         .executable(name: "xcstrings-tool", targets: ["xcstrings-tool"]),
